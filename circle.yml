@@ -8,4 +8,4 @@ deployment:
   production:
     branch: master
     heroku:
-      appname:rails-sample-shouhei20150622
+      appname: rails-sample-shouhei20150622
