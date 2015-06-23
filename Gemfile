@@ -30,6 +30,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'rack-dev-mark'
+
 group :production do
   gem 'pg'
 end
@@ -47,7 +49,6 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl'
   gem 'factory_girl_rails'
-  gem 'rack-dev-mark'
   gem 'pry'
   gem 'pry-rails'
   gem 'pry-byebug'
